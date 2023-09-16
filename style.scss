@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+main{
+    display: flex;   
+    height: 900px;
+    width: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    min-width: 100%;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.item{
+    
+
+    flex: 1;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+
+    &:hover{
+        background-color: grey;
+    }
+}
+
+.menu{ 
+display: flex;
+justify-content: center;
+background-color: rgb(220, 223, 226) ;
+width:20%;
+height: 70%;
+
+
+}
